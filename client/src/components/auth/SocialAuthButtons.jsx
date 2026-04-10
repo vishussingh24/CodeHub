@@ -48,9 +48,6 @@ const providersList = [
 ];
 
 function SocialAuthButtons({ isLoading, providers }) {
-  const allProvidersUnavailable =
-    !isLoading && !providers.google && !providers.github;
-
   return (
     <div className="social-auth">
       <div className="social-auth__divider">

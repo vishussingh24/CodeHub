@@ -52,6 +52,7 @@ function SignupPage() {
       footerLinkLabel="Sign in"
       footerLinkTo="/login"
       footerText="Already have an account?"
+      introPoints={introPoints}
       introTitle="Start building your student network."
       mode="signup"
       title="Create account"
